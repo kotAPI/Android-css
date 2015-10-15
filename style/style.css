@@ -21,7 +21,7 @@ body{
     position: absolute;
 
     animation-name: blink;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 #android-right-eye{
@@ -33,7 +33,7 @@ body{
     background-color: #FFF;
     position: absolute;
     animation-name: blink;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
@@ -138,29 +138,28 @@ body{
    
     90%{
         top: 90px;        
-        width: 26px;
         height: 26px;
         border-radius: 20px;
-        background-color: #FFF;
-        position: absolute;
+       
     }
     95%{
         top: 101px;       
-        width: 26px;
         height: 12px;
         border-radius: 26px;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
-        background-color: #FFF;
-        position: absolute;
+       
 
+    }
+    96%{
+        top: 101px;       
+        height: 5px;
+        border-radius:0;
     }
      100%{
         top: 90px;        
-        width: 26px;
         height: 26px;
         border-radius: 20px;
-        background-color: #FFF;
-        position: absolute;
+        
     }
 }
