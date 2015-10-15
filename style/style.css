@@ -10,6 +10,26 @@ body{
 	position: relative;
 	
 }
+
+#android-left-eye{
+	top: 90px;
+    left: 170px;
+    width: 26px;
+    height: 26px;
+    border-radius: 20px;
+    background-color: #FFF;
+    position: absolute;
+}
+#android-right-eye{
+	top: 90px;
+    left: 300px;
+    width: 26px;
+    height: 26px;
+    border-radius: 20px;
+    background-color: #FFF;
+    position: absolute;
+}
+
 #android-left-ear{
 	position: absolute;
     width: 12px;
