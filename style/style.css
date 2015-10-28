@@ -174,10 +174,16 @@ body{
     0%{
         transform:rotate(-36deg);
     }
-    5%{
+    2%{
          transform:rotate(-38deg);
     }
-    10%{
+    4%{
+        transform:rotate(-34deg);
+    }
+    6%{
+        transform:rotate(-38deg);
+    }
+    8%{
         transform:rotate(-34deg);
     }
     50%{
