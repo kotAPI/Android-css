@@ -43,10 +43,14 @@ body{
     height: 69px;
     margin-top: 29px;
     background-color: #A4CA39;
-    left: 149px;
-    top: -31px;
+    left: 160px;
+    top: -35px;
     border-radius: 36px;
     transform: rotate(-36deg);
+    transform-origin: bottom;
+    animation-name: twitch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 
 }
 #android-right-ear{
@@ -161,5 +165,26 @@ body{
         height: 26px;
         border-radius: 20px;
         
+    }
+}
+
+
+@keyframes twitch{
+
+    0%{
+        transform:rotate(-36deg);
+    }
+    5%{
+         transform:rotate(-38deg);
+    }
+    10%{
+        transform:rotate(-34deg);
+    }
+    50%{
+        transform:rotate(-20deg);
+
+    }
+    100%{
+        transform:rotate(-36deg);
     }
 }
